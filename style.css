@@ -1,8 +1,34 @@
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blue;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-h2{
+
+.navigation{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.navigation_title{
+    color: white;
     font-size: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.navigation_list{
+    color: white;
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+}
+.navigation_link{
+    margin-right: 1rem;
+    text-transform: capitalize;
+}
+.navigation_link:hover{
+    color: orange;
+    cursor: pointer;
 }
