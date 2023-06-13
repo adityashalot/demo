@@ -63,6 +63,7 @@ font-size: 4rem;
 
 .container_button{
     margin-top: 1rem;
+    margin-left: 5rem;
     font-size: 1.3rem;
     padding: 1rem 2rem;
     border: none;
@@ -140,4 +141,34 @@ p{
    margin-left: 5rem;
 margin-right: 5rem;
 font-size: 1.5rem;
+}
+
+p2{
+    margin-top: 3rem;
+   margin-left: 20rem;
+margin-right: 5rem;
+font-size: 1.5rem;
+}
+
+img.image{
+    width: 25rem;
+    height: 25rem;
+    margin-top: 3rem;
+}
+
+.container3_button{
+    margin-top: 3rem;
+    margin-left: 43rem;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;  
+}
+
+.container3_button:hover{
+    background-color: rgb(221, 191, 136);
+    color: black;
 }
