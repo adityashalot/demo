@@ -172,3 +172,60 @@ img.image{
     background-color: rgb(221, 191, 136);
     color: black;
 }
+
+.background2{
+    background-image: url(https://media.istockphoto.com/id/1230418546/photo/young-beautiful-happy-woman-enjoying-cappuccino-in-a-cafe.jpg?s=612x612&w=0&k=20&c=IbOUWIBhW1Hfaky0H4Z90jt3at1yxFgeqsla-RZte5I=);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    margin-top: 3rem;  
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+}
+
+.para{
+    color: white;
+    margin-top: 3rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 41rem;
+}
+
+.paragraph{
+    color: white;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 23rem;
+}
+
+.box1{
+    display: flex;
+
+}
+
+.box2{
+    color: white;
+    margin-top: 2rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: #f76d37;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2:hover{
+    background-color: brown;
+
+}
+
+.box_text{
+    color: white;
+    font-size: 20px;
+}
