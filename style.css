@@ -229,3 +229,32 @@ img.image{
     color: white;
     font-size: 20px;
 }
+
+h2{
+    color: orangered;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 7rem;
+    margin-top: 7rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+h4{
+    font-size: 2rem;
+    color: orangered;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
