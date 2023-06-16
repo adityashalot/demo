@@ -258,3 +258,83 @@ h5{
     margin-left: 12rem;
     margin-right: 12rem;
 }
+
+.container4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h6{
+    font-size: 4rem;
+    color: orangered;
+    margin-top: 5rem;
+    margin-left: 38rem;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    margin-top: 7rem;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+}
+
+.background3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBr6Rl-85Q2GF5Rekm1QPFtucfRx8o0KMxeg&usqp=CAU);
+    height: 100vh;
+    width: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 3rem
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3rem;
+}
+
+.name{
+    color: black;
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 30px;
+    
+}
+
+.message{
+    color: black;
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    padding: 40px;
+    border: 0;
+    border-radius: 50px;
+}
+
+.form_button{
+    background-color: orangered;
+    color: white;
+    margin-top: 4rem;
+    margin-left: 35%;
+    font-size: 20px;
+    padding: 20px 80px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.form_button:hover{
+    background-color: white;
+    color: black;
+}
