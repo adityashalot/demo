@@ -1,3 +1,8 @@
+:root {
+    --primary-color: rgb(0,0,0);
+    --secondary-color: rgb(255,255,255);
+  }
+
 *{
     padding: 0;
     margin: 0;
@@ -7,19 +12,19 @@
 .navigation{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: black;
+    background-color: var(--primary-color);
     height: 5rem;
     display: flex;
     align-items: center;
 }
 
 .navigation_title{
-    color: white;
+    color: var(-secondary-color);
     font-size: 2rem;
     text-decoration: none;
 }
 .navigation_list{
-    color: white;
+    color: var(-secondary-color);
     margin-left: auto;
     list-style: none;
     display: flex;
@@ -40,7 +45,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
-    /* align-items: center; */
     text-transform: capitalize;
 }
 
@@ -51,9 +55,10 @@
 }
 
 .title{
-color: black;
+color: var(--primary-color);
 font-size: 4rem;
 }
+
 .container_paragraph{
     font-size: 1.3rem;
     width: 24rem;
@@ -62,16 +67,326 @@ font-size: 4rem;
 
 .container_button{
     margin-top: 1rem;
+    margin-left: 5rem;
     font-size: 1.3rem;
     padding: 1rem 2rem;
     border: none;
     background-color: rgb(41, 39, 39);
-    color: white;
+    color: var(-secondary-color);
     cursor: pointer;
     text-transform: capitalize;
 }
 
 .container_button:hover{
     background-color: rgb(221, 191, 136);
-    color: black;
+    color: var(--primary-color);
+}
+
+.container2{
+display: flex;
+}
+
+.head{
+    color: orangered;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.head2{
+   width: 25rem;
+    margin-left: 5rem;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.head3{
+    width: 25rem;
+    margin-left: 5rem;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.container2_button{
+   margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(41, 39, 39);
+    color: var(-secondary-color);
+    cursor: pointer;
+    text-transform: capitalize; 
+    margin-left: 5rem;
+}
+
+.container2_button:hover{
+    background-color: rgb(221, 191, 136);
+    color: var(--primary-color);
+}
+
+img{
+    margin-left: 5rem;
+    height: 30rem;
+    width: 50rem;
+}
+
+h1{
+    color: orangered;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+p{
+   margin-top: 3rem;
+   margin-left: 5rem;
+margin-right: 5rem;
+font-size: 1.5rem;
+}
+
+p2{
+    margin-top: 3rem;
+   margin-left: 20rem;
+margin-right: 5rem;
+font-size: 1.5rem;
+}
+
+img.image{
+    width: 25rem;
+    height: 25rem;
+    margin-top: 3rem;
+}
+
+.container3_button{
+    margin-top: 3rem;
+    margin-left: 43rem;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(41, 39, 39);
+    color: var(-secondary-color);
+    cursor: pointer;
+    text-transform: capitalize;  
+}
+
+.container3_button:hover{
+    background-color: rgb(221, 191, 136);
+    color: var(--primary-color);
+}
+
+.background2{
+    background-image: url(https://media.istockphoto.com/id/1230418546/photo/young-beautiful-happy-woman-enjoying-cappuccino-in-a-cafe.jpg?s=612x612&w=0&k=20&c=IbOUWIBhW1Hfaky0H4Z90jt3at1yxFgeqsla-RZte5I=);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    margin-top: 3rem;  
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+}
+
+.para{
+    color: var(-secondary-color);
+    margin-top: 3rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 41rem;
+}
+
+.paragraph{
+    color: var(-secondary-color);
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 23rem;
+}
+
+.box1{
+    display: flex;
+
+}
+
+.box2{
+    color: var(-secondary-color);
+    margin-top: 2rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: #f76d37;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2:hover{
+    background-color: brown;
+
+}
+
+.box_text{
+    color: var(-secondary-color);
+    font-size: 20px;
+}
+
+h2{
+    color: orangered;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 7rem;
+    margin-top: 7rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+h4{
+    font-size: 2rem;
+    color: orangered;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    font-weight: bold;
+}
+
+h5{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+.container4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h6{
+    font-size: 4rem;
+    color: orangered;
+    margin-top: 5rem;
+    margin-left: 38rem;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    margin-top: 7rem;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+}
+
+.background3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBr6Rl-85Q2GF5Rekm1QPFtucfRx8o0KMxeg&usqp=CAU);
+    height: 100vh;
+    width: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 3rem
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3rem;
+}
+
+.name{
+    color: var(--primary-color);
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 30px;
+    
+}
+
+.message{
+    color: var(--primary-color);
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    padding: 40px;
+    border: 0;
+    border-radius: 50px;
+}
+
+.form_button{
+    background-color: orangered;
+    color: var(-secondary-color);
+    margin-top: 4rem;
+    margin-left: 35%;
+    font-size: 20px;
+    padding: 20px 80px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.form_button:hover{
+    background-color: var(-secondary-color);
+    color: var(--primary-color);
+}
+
+p{
+    color: var(--primary-color);
+}
+
+.container5{
+    display: flex;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 25rem
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 19rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.heading{
+    color: var(-secondary-color);
+    width: 100%;
+    font-size: 3rem;
+}
+
+.last{
+    color: var(-secondary-color);
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.navigation_list2{
+    margin-top: 2.5rem;
+}
+
+.navigation_link2{
+    color: var(-secondary-color);
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.navigation_link2:hover{
+    color: #f76d37;
+    cursor: pointer;
 }
