@@ -1,3 +1,9 @@
+:root {
+    --primary-color: rgb(0,0,0);
+    --secondary-color: rgb(255,255,255);
+    --mostused-color: rgb(255,69,0)
+  }
+
 *{
     padding: 0;
     margin: 0;
@@ -7,19 +13,19 @@
 .navigation{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: black;
+    background-color: var(--primary-color);
     height: 5rem;
     display: flex;
     align-items: center;
 }
 
 .navigation_title{
-    color: white;
+    color: var(--secondary-color);
     font-size: 2rem;
     text-decoration: none;
 }
 .navigation_list{
-    color: white;
+    color: var(--secondary-color);
     margin-left: auto;
     list-style: none;
     display: flex;
@@ -29,7 +35,7 @@
     text-transform: capitalize;
 }
 .navigation_link:hover{
-    color: orange;
+    color: rgb(255, 165,0);
     cursor: pointer;
 }
 
@@ -40,7 +46,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
-    /* align-items: center; */
     text-transform: capitalize;
 }
 
@@ -51,7 +56,7 @@
 }
 
 .title{
-color: black;
+color: var(--primary-color);
 font-size: 4rem;
 }
 
@@ -68,14 +73,14 @@ font-size: 4rem;
     padding: 1rem 2rem;
     border: none;
     background-color: rgb(41, 39, 39);
-    color: white;
+    color: var(--secondary-color);
     cursor: pointer;
     text-transform: capitalize;
 }
 
 .container_button:hover{
     background-color: rgb(221, 191, 136);
-    color: black;
+    color: var(--primary-color);
 }
 
 .container2{
@@ -83,7 +88,7 @@ display: flex;
 }
 
 .head{
-    color: orangered;
+    color: var(--mostused-color);
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -111,7 +116,7 @@ display: flex;
     padding: 1rem 2rem;
     border: none;
     background-color: rgb(41, 39, 39);
-    color: white;
+    color: var(--secondary-color);
     cursor: pointer;
     text-transform: capitalize; 
     margin-left: 5rem;
@@ -119,7 +124,7 @@ display: flex;
 
 .container2_button:hover{
     background-color: rgb(221, 191, 136);
-    color: black;
+    color: var(--primary-color);
 }
 
 img{
@@ -129,7 +134,7 @@ img{
 }
 
 h1{
-    color: orangered;
+    color: var(--mostused-color);
     margin-top: 3rem;
     text-align: center;
     font-size: 4rem;
@@ -163,14 +168,14 @@ img.image{
     padding: 1rem 2rem;
     border: none;
     background-color: rgb(41, 39, 39);
-    color: white;
+    color: var(--secondary-color);
     cursor: pointer;
     text-transform: capitalize;  
 }
 
 .container3_button:hover{
     background-color: rgb(221, 191, 136);
-    color: black;
+    color: var(--primary-color);
 }
 
 .background2{
@@ -189,7 +194,7 @@ img.image{
 }
 
 .para{
-    color: white;
+    color: var(--secondary-color);
     margin-top: 3rem;
     font-size: 4rem;
     font-weight: bold;
@@ -197,7 +202,7 @@ img.image{
 }
 
 .paragraph{
-    color: white;
+    color: var(--secondary-color);
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: bold;
@@ -210,28 +215,28 @@ img.image{
 }
 
 .box2{
-    color: white;
+    color: var(--secondary-color);
     margin-top: 2rem;
     width: 20rem;
     height: 20rem;
-    background-color: #f76d37;
+    background-color: rgb(254,90,29);
     margin-left: 7rem;
     display: flex;
     flex-direction: column;
 }
 
 .box2:hover{
-    background-color: brown;
+    background-color: rgb(165,42,42);
 
 }
 
 .box_text{
-    color: white;
+    color: var(--secondary-color);
     font-size: 20px;
 }
 
 h2{
-    color: orangered;
+    color: var(--mostused-color);
     font-size: 4rem;
     font-weight: bold;
     margin-left: 7rem;
@@ -246,14 +251,14 @@ h3{
 
 h4{
     font-size: 2rem;
-    color: orangered;
+    color: var(--mostused-color);
     margin-top: 5rem;
     margin-left: 20rem;
     font-weight: bold;
 }
 
 h5{
-    color: black;
+    color: var(--primary-color);
     font-size: 1.5rem;
     margin-top: 2rem;
     margin-left: 12rem;
@@ -269,7 +274,7 @@ h5{
 
 h6{
     font-size: 4rem;
-    color: orangered;
+    color: var(--mostused-color);
     margin-top: 5rem;
     margin-left: 38rem;
 }
@@ -304,7 +309,7 @@ h6{
 }
 
 .name{
-    color: black;
+    color: var(--primary-color);
     width: 100%;
     height: 55px;
     font-size: 20px;
@@ -315,7 +320,7 @@ h6{
 }
 
 .message{
-    color: black;
+    color: var(--primary-color);
     width: 100%;
     height: 150px;
     font-size: 20px;
@@ -325,8 +330,8 @@ h6{
 }
 
 .form_button{
-    background-color: orangered;
-    color: white;
+    background-color: var(--mostused-color);
+    color: var(--secondary-color);
     margin-top: 4rem;
     margin-left: 35%;
     font-size: 20px;
@@ -336,8 +341,55 @@ h6{
 }
 
 .form_button:hover{
-    background-color: white;
-    color: black;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+p{
+    color: var(--primary-color);
+}
+
+.container5{
+    display: flex;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 25rem
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 19rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.heading{
+    color: var(--secondary-color);
+    width: 100%;
+    font-size: 3rem;
+}
+
+.last{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.navigation_list2{
+    margin-top: 2.5rem;
+}
+
+.navigation_link2{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.navigation_link2:hover{
+    color: rgb(255,140,0);
+    cursor: pointer;
 }
 
 p{
