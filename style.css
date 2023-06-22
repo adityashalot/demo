@@ -393,12 +393,12 @@ p{
 }
 
 p{
-    color: black;
+    color: var(--primary-color);
 }
 
 .container5{
     display: flex;
-    background-color: black;
+    background-color: var(--primary-color);
     width: 100%;
     height: 25rem
 }
@@ -413,13 +413,13 @@ p{
 }
 
 .heading{
-    color: white;
+    color: var(--secondary-color);
     width: 100%;
     font-size: 3rem;
 }
 
 .last{
-    color: white;
+    color: var(--secondary-color);
     font-size: 1.5rem;
     margin-top: 2.5rem;
 }
@@ -429,12 +429,12 @@ p{
 }
 
 .navigation_link2{
-    color: white;
+    color: var(--secondary-color);
     font-size: 1.5rem;
     list-style: none;
 }
 
 .navigation_link2:hover{
-    color: #f76d37;
+    color: var(--mostused-color);
     cursor: pointer;
 }
