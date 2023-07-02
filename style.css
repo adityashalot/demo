@@ -159,6 +159,7 @@ img.image{
     width: 25rem;
     height: 25rem;
     margin-top: 3rem;
+    box-shadow: 15px 15px 15px rgb(170, 170, 170);
 }
 
 .container3_button{
@@ -223,6 +224,7 @@ img.image{
     margin-left: 7rem;
     display: flex;
     flex-direction: column;
+    box-shadow: 15px 15px 25px rgb(143, 142, 142);
 }
 
 .box2:hover{
